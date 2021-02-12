@@ -7,7 +7,7 @@ util.AddNetworkString("BushAction")
 //resource.AddWorkshop( string workshopid ) bushmaster sounds
 
 function BushMaster.RegisterTrigger(posStart,posEnd)
-    print(posStart,posEnd)
+    //print(posStart,posEnd)
     local uid = #BushMaster.Triggers+1
     local brush = ents.Create("bushtrigger")
 	brush:SetNWVector("posmin", posStart)
